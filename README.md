@@ -1,3 +1,5 @@
+# british-spoken-time-java
+
 British Spoken Time
 
 This small Java project converts a 24-hour time string (HH:MM) into the British spoken form.
@@ -28,4 +30,3 @@ Design notes
 
 If you'd like, I can also prepare a Maven/Gradle build, JUnit tests, and push the repo to GitHub for you (I'll need your guidance for remote repo name/access).
 
-# british-spoken-time-java
