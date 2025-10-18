@@ -1,5 +1,17 @@
-# .gitignore for Java project
-out/
+cd C:\Users\ajkus\OneDrive\Documents\ajay-prectise\TestDemo
+git init
+git add .
+git commit -m "Initial commit — British Spoken Time solution"
+REM Set token for this session (replace YOUR_TOKEN with the PAT you create locally)
+set GITHUB_TOKEN=YOUR_TOKEN
+
+REM Create a public repo named british-spoken-time-java
+curl -H "Authorization: token %GITHUB_TOKEN%" -H "Accept: application/vnd.github+json" ^
+  -d "{\"name\":\"british-spoken-time-java\",\"private\":false}" ^
+  https://api.github.com/user/repos
+
+
+REM After that, push using the same git commands as Option A (replace <REMOTE_URL> accordingly)out/
 *.class
 *.iml
 /.idea/
@@ -10,4 +22,5 @@ out/
 Thumbs.db
 # IDE folders
 *.log
+
 

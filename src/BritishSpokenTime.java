@@ -108,6 +108,7 @@ public class BritishSpokenTime {
         return hourWord + " " + minuteWords;
     }
 
+
     // Simple CLI: accept a time string as argument or read from stdin when no args provided
     public static void main(String[] args) {
         if (args.length == 0) {

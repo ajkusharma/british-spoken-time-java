@@ -4,6 +4,7 @@ public class BritishSpokenTimeTest {
     public static void assertEqual(String input, String expected) {
         try {
             String actual = BritishSpokenTime.toSpoken(input);
+
             if (!actual.equals(expected)) {
                 failures++;
                 System.out.printf("FAIL: %s -> expected: '%s', got: '%s'\n", input, expected, actual);
