@@ -1,0 +1,13 @@
+# .gitignore for Java project
+out/
+*.class
+*.iml
+/.idea/
+.vscode/
+/target/
+/bin/
+.DS_Store
+Thumbs.db
+# IDE folders
+*.log
+
